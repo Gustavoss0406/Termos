@@ -1,26 +1,17 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Termos de Serviço - adstock.ai</title>
-  <link rel="icon" href="imagens/icon-Adstock-Vetor2.svg" type="image/x-icon">
+  <title>Terms of Service</title>
   <script src="https://cdn.tailwindcss.com"></script>
-  <script src="https://unpkg.com/alpinejs" defer></script>
-  <!-- Configuração Tailwind Customizada -->
+  <!-- Tailwind CSS Custom Config -->
   <style type="text/tailwindcss">
     @tailwind base;
     @tailwind components;
     @tailwind utilities;
-    @layer base {
-      @font-face {
-        font-family: 'Plus Jakarta Sans';
-        font-weight: 400;
-        src: url('https://cdn.rareblocks.xyz/collection/clarity/fonts/PlusJakartaSans-Regular.woff2') format('woff2');
-      }
-    }
   </style>
-  <!-- Estilos para o card com degradê -->
+  <!-- Gradient Border Animation -->
   <style>
     @keyframes borderAnimation {
       0% { background-position: 0% 50%; }
@@ -42,81 +33,53 @@
     }
   </style>
 </head>
-<body class="bg-gray-50 text-gray-900 font-pj">
-  <!-- Header -->
-  <header class="py-4 bg-white shadow">
-    <div class="container mx-auto px-4 flex items-center justify-between">
-      <a href="/" class="flex items-center">
-        <img src="imagens/Logo Adstock Vetor.png" alt="AdStock Logo" class="h-8">
-        <span class="ml-2 text-xl font-bold">adstock.ai</span>
-      </a>
-      <nav class="space-x-4">
-        <a href="privacy.html" class="text-gray-700 hover:text-gray-900">Política de Privacidade</a>
-        <a href="/" class="text-gray-700 hover:text-gray-900">Home</a>
-      </nav>
-    </div>
-  </header>
-
-  <!-- Hero / Título -->
-  <section class="py-12">
-    <div class="container mx-auto px-4 text-center">
-      <h1 class="text-4xl font-bold mb-2">Termos de Serviço</h1>
-      <p class="text-lg text-gray-600">Leia e concorde com os nossos termos para usar a adstock.ai</p>
-    </div>
-  </section>
-
-  <!-- Card com Degradê -->
-  <section class="container mx-auto px-4 mb-12">
+<body class="bg-gray-50 text-gray-900 font-sans">
+  <!-- Main Content -->
+  <main class="container mx-auto px-4 py-12">
+    <h1 class="text-4xl font-bold text-center mb-8">Terms of Service</h1>
     <div class="gradient-border mx-auto max-w-3xl">
       <div class="card-content">
         <p class="mb-4">
-          Estes Termos de Serviço regem o uso do aplicativo adstock.ai. Ao utilizar nossos serviços, você concorda com os termos a seguir.
+          These Terms of Service govern your use of our application. By accessing our services, you agree to the following terms.
         </p>
-        <div class="mb-6">
-          <h2 class="text-2xl font-bold mb-2">1. Aceitação dos Termos</h2>
+        <section class="mb-6">
+          <h2 class="text-2xl font-bold mb-2">1. Acceptance of Terms</h2>
           <p>
-            Ao acessar nosso aplicativo, você concorda em cumprir estes termos e condições.
+            By using our application, you agree to comply with these terms and conditions.
           </p>
-        </div>
-        <div class="mb-6">
-          <h2 class="text-2xl font-bold mb-2">2. Uso dos Serviços</h2>
+        </section>
+        <section class="mb-6">
+          <h2 class="text-2xl font-bold mb-2">2. Use of Services</h2>
           <p>
-            Você se compromete a utilizar a adstock.ai de forma ética e de acordo com as leis vigentes.
+            You agree to use our services in an ethical manner and in compliance with applicable laws.
           </p>
-        </div>
-        <div class="mb-6">
-          <h2 class="text-2xl font-bold mb-2">3. Responsabilidades do Usuário</h2>
+        </section>
+        <section class="mb-6">
+          <h2 class="text-2xl font-bold mb-2">3. User Responsibilities</h2>
           <p>
-            É de sua responsabilidade manter a confidencialidade dos dados de login e por todas as ações realizadas na sua conta.
+            You are responsible for maintaining the confidentiality of your login details and for all activities under your account.
           </p>
-        </div>
-        <div class="mb-6">
-          <h2 class="text-2xl font-bold mb-2">4. Limitação de Responsabilidade</h2>
+        </section>
+        <section class="mb-6">
+          <h2 class="text-2xl font-bold mb-2">4. Limitation of Liability</h2>
           <p>
-            A adstock.ai não se responsabiliza por danos decorrentes do uso dos nossos serviços.
+            We are not liable for any direct or indirect damages arising from your use of our services.
           </p>
-        </div>
-        <div class="mb-6">
-          <h2 class="text-2xl font-bold mb-2">5. Modificações</h2>
+        </section>
+        <section class="mb-6">
+          <h2 class="text-2xl font-bold mb-2">5. Modifications</h2>
           <p>
-            Podemos atualizar estes termos periodicamente. O uso contínuo dos serviços constitui a aceitação das alterações.
+            We reserve the right to modify these terms at any time. Continued use of our services constitutes acceptance of the updated terms.
           </p>
-        </div>
-        <div class="mb-6">
-          <h2 class="text-2xl font-bold mb-2">Contato</h2>
+        </section>
+        <section>
+          <h2 class="text-2xl font-bold mb-2">Contact Us</h2>
           <p>
-            Dúvidas? Contate-nos: <a href="mailto:suporte@adstock.ai" class="text-blue-600">suporte@adstock.ai</a>
+            For any questions regarding these terms, please contact us at <a href="mailto:support@example.com" class="text-blue-600">support@adstock.ai</a>.
           </p>
-        </div>
+        </section>
       </div>
     </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="bg-white py-4">
-    <div class="container mx-auto px-4 text-center text-gray-600">
-      &copy; 2025 adstock.ai. Todos os direitos reservados.
-    </div>
-  </footer>
+  </main>
 </body>
 </html>
